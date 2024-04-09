@@ -2,8 +2,10 @@
 #include "screens.h"
 #include "images.h"
 #include "flow_def.h"
+#include "actions.h"
 
 ActionExecFunc actions[] = {
+    action_dump_vars,
 };
 
 

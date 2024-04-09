@@ -72,6 +72,7 @@ int main(int argc, char ** argv)
 
     /*Init*/
     ui_init();
+    init_vars();
 
     emscripten_set_main_loop_arg(do_loop, NULL, -1, true);
 }
