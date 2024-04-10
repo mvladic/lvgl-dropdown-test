@@ -11,7 +11,7 @@
       "objID": "fd434352-2277-c4a8-e87e-e96cfcbf2305",
       "projectVersion": "v3",
       "projectType": "lvgl",
-      "lvglVersion": "8.3",
+      "lvglVersion": "9.0",
       "extensions": [],
       "imports": [],
       "flowSupport": true,
@@ -309,6 +309,49 @@
           "customInputs": [],
           "customOutputs": [],
           "action": "dump_vars"
+        },
+        {
+          "objID": "5f0762b9-b32e-4218-b66e-8c894f0d0241",
+          "type": "LVGLTextareaWidget",
+          "left": 513,
+          "top": 290,
+          "width": 150,
+          "height": 70,
+          "customInputs": [],
+          "customOutputs": [],
+          "style": {
+            "objID": "17bd918f-4add-4fcc-e8b8-7421575cccf9",
+            "useStyle": "default",
+            "conditionalStyles": [],
+            "childStyles": []
+          },
+          "timeline": [],
+          "eventHandlers": [],
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px",
+          "children": [],
+          "flags": "",
+          "hiddenFlagType": "literal",
+          "clickableFlag": false,
+          "clickableFlagType": "literal",
+          "scrollbarMode": "auto",
+          "scrollDirection": "all",
+          "checkedState": false,
+          "checkedStateType": "literal",
+          "disabledStateType": "literal",
+          "states": "",
+          "localStyles": {
+            "objID": "81a2a941-6c11-48ca-ee10-741ba75f8c28"
+          },
+          "text": "",
+          "textType": "literal",
+          "placeholder": "",
+          "oneLineMode": false,
+          "passwordMode": false,
+          "acceptedCharacters": "",
+          "maxTextLength": 128
         }
       ],
       "connectionLines": [
